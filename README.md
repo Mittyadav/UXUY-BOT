@@ -37,7 +37,7 @@ This is an automation script written in Node.js for the uxuy platform. It perfor
 1. **Clone the project:**
 
    ```bash
-   git clone 
+   git clone https://github.com/CryptoSatyam/UXUY-BOT.git
    cd Uxuy
 
 2. **Install Dependencies**
