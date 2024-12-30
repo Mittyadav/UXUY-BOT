@@ -430,8 +430,10 @@ async function wait(seconds) {
   console.log(`Bắt đầu vòng lặp mới...`);
 }
 
+const colors = require('colors'); // Ensure you have the 'colors' package installed.
+
 async function main() {
-  console.log(colors.green(" 
+  console.log(colors.green(`
  -================= ≫ ──── ≪•◦ ❈ ◦•≫ ──── ≪=================-
  │                                                          │
  │  ██████╗  █████╗ ██████╗ ██╗  ██╗                        │
@@ -442,8 +444,15 @@ async function main() {
  │  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝                        │
  │                                                          │
  │                                                          │
- ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─")
-   "(made by dark Please Suppot Join Our Channel @scripthub00"),
+ ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─
+   (made by dark. Please support us! Join our channel @scripthub00)
+`));
+}
+
+// Call the main function
+main().catch((error) => {
+  console.error("An error occurred:", error);
+});
 
   const { endpoint: hasIDAPI, message } = await checkBaseUrl();
   if (!hasIDAPI) return console.log(`API ID not found, try again later!`.red);
