@@ -511,7 +511,7 @@ async function main() {
     console.log(`Proxy: ${proxies.length}`);
     process.exit(1);
   }
-  console.log("This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/CryptoSatyam1)".yellow);
+  console.log("This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/scripthub00)".yellow);
   let maxThreads = settings.MAX_THEADS;
 
   const { endpoint: hasIDAPI, message } = await checkBaseUrl();
@@ -576,7 +576,7 @@ async function main() {
       }
     }
     await sleep(3);
-    console.log(" This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/CryptoSatyam1)".yellow);
+    console.log(" This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/scripthub00)".yellow);
     console.log(`=============Complete all accounts | Wait ${settings.TIME_SLEEP} minutes=============`.magenta);
     await sleep(settings.TIME_SLEEP * 60);
   }
