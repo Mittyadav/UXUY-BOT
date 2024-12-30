@@ -432,19 +432,7 @@ async function wait(seconds) {
 
 
 async function main() {
-  console.log(colors.green(`
- -================= ≫ ──── ≪•◦ ❈ ◦•≫ ──── ≪=================-
- │                                                          │
- │  ██████╗  █████╗ ██████╗ ██╗  ██╗                        │
- │  ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝                        │
- │  ██║  ██║███████║██████╔╝█████╔╝                         │
- │  ██║  ██║██╔══██║██╔══██╗██╔═██╗                         │
- │  ██████╔╝██║  ██║██║  ██║██║  ██╗                        │
- │  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝                        │
- │                                                          │
- │                                                          │
- ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─
-   (made by dark. Please support us! Join our channel @scripthub00)
+  console.log(colors.green(`made by dark. Please support us! Join our channel @scripthub00)
 `));
 }
 
