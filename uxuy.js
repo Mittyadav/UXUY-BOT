@@ -430,7 +430,6 @@ async function wait(seconds) {
   console.log(`Bắt đầu vòng lặp mới...`);
 }
 
-const colors = require('colors'); // Ensure you have the 'colors' package installed.
 
 async function main() {
   console.log(colors.green(`
