@@ -1,9 +1,9 @@
 # UXUY BOT AUTO 
 
 # LINK JOIN
- https://t.me/UXUYbot/app?startapp=A_1325686889_inviteEarn
-
-Join My Telegram Bhai Log : https://t.me/CryptoSatyam1
+ 
+https://t.me/UXUYbot/app?startapp=A_895790164_inviteEarn
+Join My Telegram Bhai Log : https://t.me/scripthub00
 
 
 # INFORMATION BOT
@@ -37,7 +37,7 @@ This is an automation script written in Node.js for the uxuy platform. It perfor
 1. **Clone the project:**
 
    ```bash
-   git clone https://github.com/CryptoSatyam/UXUY-BOT.git
+   git clone https://github.com/Mittyadav/UXUY-BOT.git
    cd UXUY-BOT
 
 2. **Install Dependencies**
