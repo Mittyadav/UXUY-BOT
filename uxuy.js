@@ -431,7 +431,7 @@ async function wait(seconds) {
 }
 
 async function main() {
-  console.log(colors.yellow(" This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/scripthub00)"));
+  console.log(colors.yellow(" This Tool Is Developed By dark Please Suppot Join Our Channel (https://t.me/scripthub00)"));
 
   const { endpoint: hasIDAPI, message } = await checkBaseUrl();
   if (!hasIDAPI) return console.log(`API ID not found, try again later!`.red);
