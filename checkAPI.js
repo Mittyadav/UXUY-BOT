@@ -16,7 +16,7 @@ async function checkBaseUrl() {
     return {
       endpoint: settings.BASE_URL,
       message:
-        " This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/CryptoSatyam1)",
+        " This Tool Is Developed By dark life 🧬 Please Suppot Join Our Channel (https://t.me/scrithub00)",
     };
   }
 }
@@ -31,14 +31,14 @@ async function getBaseApi(url) {
       return {
         endpoint: null,
         message:
-          " This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/CryptoSatyam1)",
+          " This Tool Is Developed By dark life 🧬 Please Suppot Join Our Channel (https://t.me/scripthub00)",
       };
     }
   } catch (e) {
     return {
       endpoint: null,
       message:
-        " This Tool Is Developed By Satyam Please Suppot Join Our Channel (https://t.me/CryptoSatyam1)",
+        " This Tool Is Developed By dark life 🧬 Please Suppot Join Our Channel (https://t.me/scripthub00)",
     };
   }
 }
